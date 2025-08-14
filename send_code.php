@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$valid_email = 'bdhhmugdho@gmail.com'; // Use your RMIT email here
+$valid_email = 's4107274@student.rmit.edu.au'; // Use your RMIT email here
 $valid_password = '1234';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -38,3 +38,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     exit();
 }
 ?>
+
